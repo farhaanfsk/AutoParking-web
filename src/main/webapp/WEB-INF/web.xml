@@ -16,6 +16,30 @@
   	<description></description>
   	<servlet-class>com.epam.servlets.ReloadFile</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Menu</servlet-name>
+  	<display-name>Menu</display-name>
+  	<description></description>
+  	<servlet-class>com.epam.servlets.Menu</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MapDisplay</servlet-name>
+  	<display-name>MapDisplay</display-name>
+  	<description></description>
+  	<servlet-class>com.epam.servlets.MapDisplay</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AjaxServlet</servlet-name>
+  	<display-name>AjaxServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.epam.servlets.AjaxServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Map</servlet-name>
+  	<display-name>Map</display-name>
+  	<description></description>
+  	<servlet-class>com.epam.servlets.Map</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Option</servlet-name>
   	<url-pattern>/Option</url-pattern>
@@ -23,5 +47,21 @@
   <servlet-mapping>
   	<servlet-name>ReloadFile</servlet-name>
   	<url-pattern>/ReloadFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Menu</servlet-name>
+  	<url-pattern>/Menu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MapDisplay</servlet-name>
+  	<url-pattern>/MapDisplay</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AjaxServlet</servlet-name>
+  	<url-pattern>/AjaxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Map</servlet-name>
+  	<url-pattern>/Map</url-pattern>
   </servlet-mapping>
 </web-app>

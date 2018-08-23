@@ -1,0 +1,100 @@
+Aug 17, 2018 10:12:28 AM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 17, 2018 10:20:54 AM com.epam.files.LogWrite write
+INFO: Vehile = zx12zx1212 Parked at Slot - 2
+Aug 17, 2018 10:26:10 AM com.epam.files.LogWrite write
+INFO: Vehile = zx12zx1212 successfully UnParked
+Aug 17, 2018 10:28:25 AM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 17, 2018 10:29:34 AM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 17, 2018 10:33:54 AM com.epam.files.LogWrite write
+INFO: Vehile = zx12zx1212 Parked at Slot - 2
+Aug 17, 2018 10:44:38 AM com.epam.files.LogWrite write
+INFO: Vehile = as12as1212 Parked at Slot - 3
+Aug 17, 2018 11:16:29 AM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 17, 2018 11:28:56 AM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 17, 2018 11:40:36 AM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 17, 2018 11:40:57 AM com.epam.files.LogWrite write
+INFO: Vehile = as12as1212 Parked at Slot - 2
+Aug 17, 2018 11:45:19 AM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 17, 2018 11:45:23 AM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 17, 2018 11:49:28 AM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 17, 2018 12:03:30 PM com.epam.files.LogWrite write
+INFO: Vehile = zx12zx1212 Parked at Slot - 1
+Aug 17, 2018 12:05:03 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 20, 2018 2:30:50 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 20, 2018 2:31:49 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 20, 2018 2:51:32 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 20, 2018 2:52:06 PM com.epam.files.LogWrite write
+INFO: Vehile = as12as1212 successfully UnParked
+Aug 20, 2018 5:18:36 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 20, 2018 5:19:56 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 20, 2018 5:19:59 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 20, 2018 5:20:07 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 20, 2018 5:20:13 PM com.epam.files.LogWrite write
+INFO: Vehile = as12as1212 Parked at Slot - 2
+Aug 20, 2018 5:20:41 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 20, 2018 5:24:22 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 20, 2018 5:24:24 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 20, 2018 5:24:30 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 20, 2018 5:24:35 PM com.epam.files.LogWrite write
+INFO: Vehile = as12as1212 Parked at Slot - 2
+Aug 20, 2018 5:24:54 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 20, 2018 5:28:05 PM com.epam.files.LogWrite write
+INFO: Vehile = ap07ey7777 Parked at Slot - 1
+Aug 20, 2018 5:28:05 PM com.epam.files.LogWrite write
+INFO: Vehile = ts11pk7777 Parked at Slot - 2
+Aug 21, 2018 12:11:35 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 21, 2018 12:13:36 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 21, 2018 12:31:59 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 21, 2018 12:35:13 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 21, 2018 12:35:17 PM com.epam.files.LogWrite write
+INFO: Vehile = as12as1212 Parked at Slot - 2
+Aug 21, 2018 12:36:22 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 21, 2018 12:40:51 PM com.epam.files.LogWrite write
+INFO: Vehile = zx12zx1212 Parked at Slot - 1
+Aug 21, 2018 6:00:48 PM com.epam.files.LogWrite write
+INFO: Vehile = ap07ey7777 Parked at Slot - 1
+Aug 21, 2018 6:00:48 PM com.epam.files.LogWrite write
+INFO: Vehile = ts11pk7777 Parked at Slot - 2
+Aug 21, 2018 6:03:35 PM com.epam.files.LogWrite write
+INFO: Vehile = ap07ey7777 Parked at Slot - 1
+Aug 21, 2018 6:03:35 PM com.epam.files.LogWrite write
+INFO: Vehile = ts11pk7777 Parked at Slot - 2
+Aug 21, 2018 6:04:22 PM com.epam.files.LogWrite write
+INFO: Vehile = ap07ey7777 Parked at Slot - 1
+Aug 21, 2018 6:04:22 PM com.epam.files.LogWrite write
+INFO: Vehile = ts11pk7777 Parked at Slot - 2
+Aug 21, 2018 6:14:53 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 21, 2018 6:17:43 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 successfully UnParked
+Aug 21, 2018 6:31:04 PM com.epam.files.LogWrite write
+INFO: Vehile = qw12qw1212 Parked at Slot - 1
+Aug 21, 2018 6:31:10 PM com.epam.files.LogWrite write
+INFO: Vehile = as12as1212 Parked at Slot - 2

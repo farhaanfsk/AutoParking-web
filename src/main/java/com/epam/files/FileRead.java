@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 /**.
- * 
+ *
  * @author Farhaan_Shaik
  *
  */
@@ -18,17 +18,18 @@ public class FileRead {
 	 */
 	public HashMap<Integer, String> read() throws IOException {
 		HashMap<Integer, String> map = new HashMap<Integer, String>();
-		File file = new File("transaction.csv");
+		String url = "C:\\Users\\Farhaan_Shaik\\eclipse-workspace\\autoparking\\src\\main\\resources\\transaction.csv";
+		File file = new File(url);
     	FileReader fileR = new FileReader(file);
     	BufferedReader reader = new BufferedReader(fileR);
     	String line = "";
 		while ((line = reader.readLine()) != null) {
-			String[] temp=line.split(",");
+			String[] temp = line.split(",");
 				map.put(Integer.parseInt(temp[1]), temp[0]);
 		}
 		System.out.println(map);
 		fileR.close();
 		reader.close();
-    	return map;    	
+    	return map;
     }
 }

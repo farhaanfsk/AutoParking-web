@@ -1,7 +1,7 @@
 package com.epam.servlets;
 
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.sql.SQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.epam.autoparking.AutoParking;
-import com.epam.exception.InvalidInputException;
 
 /**
  * Servlet implementation class ReloadFile
@@ -22,7 +21,6 @@ public class ReloadFile extends HttpServlet {
      */
     public ReloadFile() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -30,15 +28,32 @@ public class ReloadFile extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html");
-		
+		String value = request.getParameter("option");
+		AutoParking park = new AutoParking();
+		if(value.equals("1")) {
+			try {
+				park.fileInit(value, 0);
+			} catch (ClassNotFoundException | SQLException e) {
+				e.printStackTrace();
+			}
+		} else if(value.equals("2")){
+			int slotSize = Integer.parseInt(request.getParameter("size"));
+			try {
+				park.fileInit(value, slotSize);
+			} catch (ClassNotFoundException | SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		request.setAttribute("val","park");
+		request.getRequestDispatcher("menu.jsp").forward(request, response);
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
+		
 	}
 
 }

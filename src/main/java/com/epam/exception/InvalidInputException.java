@@ -5,9 +5,11 @@ package com.epam.exception;
  *
  */
 public class InvalidInputException extends Exception {
-
-	public InvalidInputException() {
-        System.out.println("Invalid Input");
+    /**.
+     * method to display exception
+     */
+	@Override
+	public String toString() {
+		return "InvalidInput";
 	}
-    
 }

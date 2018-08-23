@@ -3,8 +3,11 @@
  */
 package com.epam.servicetest;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+
+import java.sql.SQLException;
 
 import org.junit.Test;
 
@@ -17,12 +20,14 @@ import com.epam.service.Validation;
 public class ValidationTest {
     /**.
      * testing the login credentials
+     * @throws SQLException 
+     * @throws ClassNotFoundException 
      */
 	@Test
-	public void loginTest() {
-		assertTrue(Validation.login("fsk", "12"));
-    	assertFalse(Validation.login("abcd", "epam"));
-    	assertFalse(Validation.login("1234", "qwerty"));
+	public void loginTest() throws ClassNotFoundException, SQLException {
+		assertEquals("park",Validation.login(121, "admin"));
+    	assertEquals("unpark",Validation.login(122, "admin2"));
+    	assertEquals("display",Validation.login(123, "admin3"));
 	}
 	/**.
 	 * testing if car number is valid or not
